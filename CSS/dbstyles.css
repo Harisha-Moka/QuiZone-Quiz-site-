@@ -1,0 +1,403 @@
+.heading1{
+    color: rgb(125, 60, 152);
+    text-align: center;
+}
+.heading2{
+    color: rgb(125, 60, 152);
+    text-align: center;
+}
+.Continuebutton{
+    background-color: rgb(125, 60, 152);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 500px;
+    cursor: pointer;
+    transition: 1s;
+    border-color: rgb(125, 60, 152);
+    border-style: solid;
+    border-radius: 30px;
+    width: 500px;
+    height: 50px;
+}
+.Continuebutton:hover{
+    background-color: white;
+    color: rgb(125, 60, 152);
+    border-color: rgb(125, 60, 152);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    width: 550px;
+    height: 60px;
+}
+.home{
+    color: rgb(125, 60, 152);
+    margin-top: 15px;
+    margin-left: 800px;
+    text-decoration: solid;
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+}
+.home:hover{
+    text-decoration: underline;
+}
+.about{
+    color: rgb(125, 60, 152);
+    margin-top: 15px;
+    text-decoration: solid;
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+}
+.about:hover{
+    text-decoration: underline;
+}
+
+.sign_in{
+    width: 100px;
+    height: 50px;
+    color: rgb(125, 60, 152);
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgb(125, 60, 152);
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    
+}
+.sign_in:hover{
+    background-color: rgb(125, 60, 152);
+    color: white;
+    text-decoration: solid;
+}
+
+.sign_up{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(125, 60, 152);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(125, 60, 152);
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 1s;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+.sign_up:hover{
+    color: rgb(125, 60, 152);
+    background-color: white;
+    text-decoration: solid;
+}
+
+.logo{
+width: 200px;
+height: 50px;
+margin-left: 10px;
+margin-top: 10px;
+cursor: pointer;
+}
+.navbar ul{
+list-style-type: none;
+background-color: rgb(125, 60, 152);
+padding: 0px;
+margin: 0px;
+overflow: hidden;
+}
+.navbar a{
+color: white;
+text-decoration: none;
+padding: 25px;
+font-size: 20px;
+display: block;
+text-align: center;
+}
+.navbar a:hover{
+background-color: white;
+color: rgb(125, 60, 152);
+}
+.navbar li{
+float: left;
+}   
+.body{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.container{
+display: flex;
+flex: row;
+flex-wrap: wrap;
+}
+.box{
+width: 400px;
+height: 400px;
+}
+.box:hover{
+width: 420px;
+height: 420px;
+transition: 0.5s;
+}
+#mysql{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 80px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#mysql .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#post{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#post .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#oracle{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#oracle .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#microsoft{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 80px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#microsoft .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#lite{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#lite .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#mango{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#mango .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#cass{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 80px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#cass .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#redis{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#redis .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#elas{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#elas .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
+#neo{
+background-color:white;
+border-radius: 20px;
+text-align: center;
+border-style: solid;
+border-color: rgb(125, 60, 152);
+color: rgb(125, 60, 152);
+font-size: 50px;
+margin-left: 80px;
+margin-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+#neo .b{
+color: white;
+background-color: rgb(125, 60, 152);
+width: 150px;
+height: 50px;
+cursor: pointer;
+border-style: none;
+transition: 1s;
+border-radius: 25px;
+}
